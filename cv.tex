@@ -1,0 +1,151 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[margin=0.6 in, top=0.75in, bottom=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\definecolor{accent}{HTML}{3B1F5E}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0em}{}
+  []
+\titlespacing*{\section}{0pt}{1.2ex}{0.6ex}
+\setlist[itemize]{leftmargin=1.5em,itemsep=1pt,topsep=2pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\cventry}[4]{%
+  \noindent
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} \textit{#2} & \textit{\small #4}
+  \end{tabular*}%
+  \par\vspace{1pt}%
+}
+
+\newcommand{\cveducation}[3]{%
+  \noindent
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{#1} & \textit{\small #3} \\
+    \textit{#2} & 
+  \end{tabular*}%
+  \par\vspace{2pt}%
+}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries\color{accent} Sharone Abhilash}\\[4pt]
+  {\small
+    University of Toronto Mississauga $\cdot$
+    \href{}{sharone.abhilash@mail.utoronto.ca}
+  }
+\end{center}
+
+\vspace{4pt}
+
+\section{Education}
+
+\cveducation{Specialist in Astrophysics, Minor in Computer Science \& Mathematics}{University of Toronto}{June 2027}
+
+\noindent cGPA: 3.7/4.0
+
+\textit{Relevant Coursework:}
+Observational Astronomy (AST325) $\cdot$
+Astrophysics I \& II (AST221/222) $\cdot$
+Stellar Astrophysics (AST320) $\cdot$
+Mathematical \& Computational Physics (PHY325) $\cdot$
+Quantum Mechanics (JCP321) $\cdot$
+Statistical Mechanics (JCP322) $\cdot$
+Partial Differential Equations (MAT311) $\cdot$
+Numerical Methods (CSC338) $\cdot$
+Optics (PHY347) $\cdot$
+Intro to Computer Programming (CSC108/148) $\cdot$
+Supervised Reading (PHY473, AST430) $\cdot$
+Senior Thesis (CPS489)
+
+
+\section{Skills}
+
+Python (NumPy, Pandas, SciPy, Scikit-learn, HDBSCAN, Astropy, Galpy, Emcee, joblib) $\cdot$
+MESA Stellar Evolution Code $\cdot$
+Science Communication $\cdot$
+Critical Thinking $\cdot$
+Adaptability $\cdot$
+Persistence $\cdot$
+Time Management $\cdot$
+Teamwork \& Collaboration
+
+\section{Research Projects \& Positions}
+
+\noindent\textbf{Investigate Planet Properties Across The Exo-Neptune Landscape}\\
+\textit{Ongoing Research Project/Position at UofT}
+\begin{itemize}
+  \item Analyzed host-star metallicities, eccentricities, and density distributions across Neptune subpopulations.
+  \item Applied MESA stellar evolution code and custom modifications to simulate planet evolution and constrain core masses across the Exo-Neptune landscape.
+  \item Investigated trends with metallicity and irradiation level.
+\end{itemize}
+ 
+\vspace{4pt}
+\noindent\textbf{Star Formation in $\rho$ Ophiuchi}\\
+\textit{Dunlap Institute for Astronomy \& Astrophysics; Ongoing, Planned Publication}
+\begin{itemize}
+  \item Developed a multigenerational picture of star formation by integrating SPYGLASS pre-main-sequence stars, protostars, prestellar dense cores, Herbig–Haro objects, and gas maps.
+  \item Studied spatial patterns, age gradients, and dynamics as they relate to feedback-driven star formation and regional expansion.
+\end{itemize}
+
+\section{Publications}
+
+\noindent\textit{Nth Author}
+\vspace{4pt}
+
+\begin{enumerate}[leftmargin=2em, label={[\arabic*]}, itemsep=4pt]
+  \item Rector, T.A., Kerr, R.M.P., Prato, L., Shuping, R.Y., Bender, C., Esplin, T.L., \& \textbf{Abhilash, S.E.}\ 2026, Mapping Active Star-Formation in Serpens and the Aquila Rift, \textit{AJ}, \href{https://doi.org/10.48550/arXiv.2606.05668}{doi:10.48550/arXiv.2606.05668}
+\end{enumerate}
+
+\section{Work \& Volunteer Experience}
+
+\cventry{Astronomy Member at Large}{/ Erindale Chemical and Physical Sciences Society}{}{June 2026 -- Present}
+\begin{itemize}
+  \item Advertise ECPSS events within astronomy classrooms to increase interdepartment engagement.
+  \item Represent Astronomy at the Chemical and Physical Sciences Department in the ECPSS.
+\end{itemize}
+
+\vspace{4pt}
+\cventry{External Affairs Manager}{/ UTM Astronomy Student Association}{}{December 2024 - Present}
+\begin{itemize}
+  \item Lead planning and coordination of academic, outreach, and networking events for undergraduate astronomy students.
+  \item Support student engagement by connecting members with research, mentorship, and professional opportunities.
+  \item Monitor current astronomy events to keep students informed and plan programming accordingly.
+\end{itemize}
+
+\vspace{4pt}
+\cventry{Astronomy Researcher}{/ Space Point Publications}{}{February 2025 - April 2026}
+\begin{itemize}
+  \item Conducted in-depth analyses of scientific literature to support astronomy and physics content for magazine issues, blog posts, and online courses.
+  \item Provided research-backed insights to writers ensuring accuracy and engagement.
+\end{itemize}
+
+\vspace{4pt}
+\cventry{Volunteer Barista}{/ The Carrot Community Coffee House}{}{January 2021 - December 2022}
+\begin{itemize}
+  \item Maintained cleanliness, organized spaces, and ensured seamless operations during busy periods.
+  \item Demonstrated teamwork and creativity while building connections with the local community and volunteers through art and coffee.
+\end{itemize}
+
+
+\section{Awards \& Accomplishments}
+
+\begin{itemize}
+  \item SURP 2025 Professor Mercedes T.\ Richards Award $\cdot$ \textit{Honourable Mention}
+  \item SURP 2025 Poster Session Award
+  \item SURP 2025 Undergraduate Research Program, University of Toronto (\$10,881)
+  \item University of Toronto Dean's List (2023/24, 2024/25, 2025/26)
+  \item CKC Post Secondary Academic Award (2025, 2026)
+  \item India Day Academic Achievement Award (2019-20)
+  \item Academic Honours (2017-18, 2018-19, 2019-20, 2020-21)
+\end{itemize}
+
+\end{document}
